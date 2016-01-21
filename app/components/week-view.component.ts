@@ -6,6 +6,7 @@ import {Day} from '../interfaces/day';
 @Component({
   selector: 'week-view',
   templateUrl: 'app/components/week-view.html',
+  styleUrls: ['app/components/week-view.css'],
   providers: [DaysService]
 })
 export class WeekViewComponent implements OnInit {
